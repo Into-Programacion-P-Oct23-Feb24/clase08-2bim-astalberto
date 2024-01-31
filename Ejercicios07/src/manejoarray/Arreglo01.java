@@ -22,7 +22,7 @@ public class Arreglo01 {
         arreglo[3] = 40;
         arreglo[4] = 50;
         
-        // arreglo[5] = 60;
+        arreglo[5] = 60;
         
         for (int i = 0; i < arreglo.length; i++) {
             System.out.println(arreglo[i]);

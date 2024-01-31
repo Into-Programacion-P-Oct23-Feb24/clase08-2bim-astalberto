@@ -19,7 +19,7 @@ public class ArrayList01 {
 
         // creación de un ArrayList
         ArrayList<Integer> arreglo = new ArrayList<>();
-
+        
         arreglo.add(10);
         arreglo.add(20);
         arreglo.add(30);
@@ -29,10 +29,13 @@ public class ArrayList01 {
         arreglo.add(1000);
         arreglo.add(2000);
         arreglo.add(3000);
-
-        // for (int i = 0; i < arreglo.size(); i++) {
-        //    System.out.println(arreglo.get(i));
-        // }
+        arreglo.add(3000);
+        arreglo.add(3000);
+        /*
+        for (int i = 0; i < arreglo.size(); i++) {
+            System.out.println(arreglo.get(i));
+        }
+         */
 
         System.out.println("----------------------------------");
 
@@ -42,13 +45,15 @@ public class ArrayList01 {
         arreglo3.add(11.2);
         arreglo3.add(12.2);
         arreglo3.add(13.2);
+        double suma = 0;
 
-        // for (int i = 0; i < arreglo3.size(); i++) {
-        //    System.out.println(arreglo3.get(i));
-        // }
+        for (int i = 0; i < arreglo3.size(); i++) {
+            suma = suma + arreglo3.get(i);
+        }
+        System.out.println(suma);
 
         System.out.println("----------------------------------");
-        
+        /*
         ArrayList<String> arreglo2 = new ArrayList<>();
         boolean bandera = true;
         String pais;
